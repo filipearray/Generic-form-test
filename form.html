@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Teste</title>
+</head>
+<body>
+    <form action = ""> 
+        <fieldset>
+            <legend>Formulário de contato</legend>
+            <label for = "nome">Nome:</label>
+            <input type = "text" placeholder = "Insira o seu nome" required>
+            <br>
+            <label for = "email">Email:</label>
+            <input type = "email" placeholder = "" name = "email" id = "email">
+            <br>
+            <label for = "telefone">Telefone:</label>
+            <input type = "number" placeholder = "" name = "telefone" id = "telefone">
+            <br>
+            <label for = "pass">Password:</label>
+            <input type = "password" placeholder = "" name = "pass" id = "pass" required>
+            <br>
+            <label for = "dn">Data de nascimento:</label>
+            <input type = "date" name = "dn" id = "dn">
+            <br>
+            <label for = "genero">Gênero:</label>
+            <input type = "radio" name = "gender" id = "M">Masculino
+            <input type = "radio" name = "gender" id = "F">Feminino
+            <br>
+            <select name = "Curso" id = "Curso">
+                <option value = "Multimídia">Multimídia</option>
+                <option value = "Programação" selected>Programação</option>
+                <option value = "Design">Design</option>
+            </select>
+            <br>
+            <label for = "Mensagem">Mensagem:</label>
+            <br>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <input type = "reset" value = "Limpar">
+            <input type = "submit" value = "Enviar">
+        </fieldset>
+    </form>
+</body>
+</html>
